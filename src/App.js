@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
-import background from './img/bg.jpg';
+import './styles/App.css';
 
 import Navbar from './components/Navbar';
 

@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import background from '../img/bg.jpg';
 
 class Home extends Component {
   render() {
     return (
-      <h1>Home</h1>
+      <img src={background} alt="" className="background"/>
     )
   }
 }
