@@ -7,16 +7,17 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar">
-        <div className="navbar_content">
+        <ul className="navbar-end">
           <Link to="/">
-            <img src={background} alt="" className="navbar__logo"/>
+            <a className="navbar__link hvr-underline-from-left">Home</a>
           </Link>
-          <ul className="navbar_end">
-            <Link to="/about" className="navbar__link">About</Link>
-            <Link to="/work" className="navbar__link">Work</Link>
-            <Link to="/contact" className="navbar__link">Contact</Link>
-          </ul>
-        </div>
+          <Link to="/work">
+            <li className="navbar__link hvr-underline-from-left">Work</li>
+          </Link>
+          <Link to="/contact">
+            <li className="navbar__link hvr-underline-from-left">Contact</li>
+          </Link>
+        </ul>
       </nav>
     )
   }

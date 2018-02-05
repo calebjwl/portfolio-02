@@ -10,6 +10,8 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar/>
+        <Home/>
+        <About/>
       </div>
     );
   }

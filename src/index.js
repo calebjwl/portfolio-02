@@ -15,7 +15,7 @@ ReactDOM.render(
   <Router>
     <div>
       <Route path="/" component={App}/>
-      <Route exact path="/" component={Home}/>
+      {/* <Route exact path="/" component={Home}/> */}
       <Route path="/about" component={About}/>
       <Route path="/work" component={Work}/>
       <Route path="/contact" component={Contact}/>
