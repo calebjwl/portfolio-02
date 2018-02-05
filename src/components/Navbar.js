@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+import background from '../img/portfolio-logo.png';
+
 class Navbar extends Component {
   render() {
     return (
-      <div className="navbar">
-        <div className="navbar__content">
+      <nav className="navbar">
+        <div className="navbar_content">
           <Link to="/">
-            <img src="http://placecage.com/50/50" alt="" className="navbar__logo"/>
+            <img src={background} alt="" className="navbar__logo"/>
           </Link>
-          <ul className="navbar__links">
-            <li className="navbar__link"><Link to="/about">About</Link></li>
-            <li className="navbar__link"><Link to="/work">Work</Link></li>
-            <li className="navbar__link"><Link to="/contact">Contact</Link></li>
+          <ul className="navbar_end">
+            <Link to="/about" className="navbar__link">About</Link>
+            <Link to="/work" className="navbar__link">Work</Link>
+            <Link to="/contact" className="navbar__link">Contact</Link>
           </ul>
         </div>
-      </div>
+      </nav>
     )
   }
 }

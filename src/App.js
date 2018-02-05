@@ -8,7 +8,6 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar/>
-        {/* <img src={logo} className="App-logo" alt="logo"/></img> */}
       </div>
     );
   }

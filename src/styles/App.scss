@@ -1,6 +1,10 @@
-html {
-  background: black;
-}
+$m-gutter: 1rem;
+
+$c-white: #ffffff;
+
+@import 'reset.scss';
+@import 'navbar.scss';
+@import 'home.scss';
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

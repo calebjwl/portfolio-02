@@ -1,0 +1,28 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    &_content {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        width: 60rem;
+        padding: 1rem 0;
+    }
+
+    &__logo {
+        width: 3.5rem;
+    }
+
+    &_end {
+        display: flex;
+    }
+    
+    &__link {
+        color: $c-white;
+        text-transform: uppercase;
+        margin: 0 1rem;
+    }
+}
