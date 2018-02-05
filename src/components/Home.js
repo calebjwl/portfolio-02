@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 class Home extends Component {
   render() {
     return (
-      <div className="background"></div>
+      <div>
+        <div className="top-background"></div>
+      </div>
     )
   }
 }

@@ -3,13 +3,13 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    width: 100%;
 
     &_content {
         display: flex;
         justify-content: space-between;
         align-content: center;
-        width: 60rem;
-        padding: 1rem 0;
+        padding: 1rem;
     }
 
     &__logo {
@@ -21,7 +21,7 @@
     }
     
     &__link {
-        color: $c-white;
+        color: #ffffff;
         text-transform: uppercase;
         margin: 0 1rem;
     }
