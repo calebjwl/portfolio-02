@@ -11,9 +11,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+          <Navbar/>
         <div className="top-background"></div>
         <div className="container">
-          <Navbar/>
           <Home/>
           <About/>
           <Work/>
