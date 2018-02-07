@@ -5,7 +5,7 @@
 }
 
 .terminal {
-    width: 80%; 
+    width: 100%; 
 
     &-header {
         height: 28px;
@@ -60,5 +60,9 @@
 }
 
 .link {
-    color:rgb(150, 181, 141);  
+    color: rgb(150, 181, 141); 
+    
+    &:hover {
+        color: rgb(181, 220, 171);
+    }
 }

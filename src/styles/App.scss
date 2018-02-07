@@ -1,11 +1,20 @@
 $m-gutter: 1rem;
 
-$c-white: #ffffff;
+$c-white: rgb(255, 255, 255);
+$c-green: rgb(150, 181, 141);
 
 @import 'reset.scss';
 @import 'navbar.scss';
 @import 'home.scss';
 @import 'about.scss';
+@import 'work.scss';
+
+@import url('https://fonts.googleapis.com/css?family=Hind');
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -15,4 +24,8 @@ $c-white: #ffffff;
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.box-shadow {
+  box-shadow: 0 50px 100px rgba(50,50,93,.15), 0 15px 35px rgba(50,50,93,.2), 0 5px 15px rgba(0,0,0,.12);
 }

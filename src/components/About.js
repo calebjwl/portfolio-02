@@ -4,7 +4,7 @@ class About extends Component {
   render() {
     return (
       <div className="about-container">
-        <div className="terminal">
+        <div className="terminal box-shadow">
           <div className="terminal-header">
             <div className="header-button red"></div>
             <div className="header-button yellow"></div>
@@ -18,12 +18,15 @@ class About extends Component {
               </div>
               <div className="terminal-group">
                 <p className="terminal-title">/* Bio */</p>
-                <p>I am a front-end developer, graphic artist, and musician. 
-                  I create simple, responsive, and unique web apps.</p>
+                <p>I am a junior web developer specializing in front-end engineering. I aim to create seamless user experiences in practical, optimized web apps.</p>
               </div>
               <div className="terminal-group">
                 <p className="terminal-title">/* Skills */</p>
                 <p>["HTML5", "CSS3", "Sass", "Javascript", "React/Ember/Vue", "Sketch", "Photoshop"]</p>
+              </div>
+              <div className="terminal-group">
+                <p className="terminal-title">/* Hobbies */</p>
+                <p>["drums", "audio engineering & mixing", "drawing", "cooking"]</p>
               </div>
               <div className="terminal-group">
                 <p className="terminal-title">/* Contact */</p>
