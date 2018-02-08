@@ -3,23 +3,14 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import Home from './components/Home';
 import About from './components/About';
-import Work from './components/Work';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
+
+import projects from './content/projects-content';
 
 import {
   BrowserRouter as Router,
   Route,
 } from 'react-router-dom'
 
-ReactDOM.render(
-  <Router>
-    <div>
-      <Route path="/" component={App}/>
-      {/* <Route exact path="/" component={Home}/> */
-      /* <Route path="/about" component={About}/>
-      <Route path="/work" component={Work}/>
-      <Route path="/contact" component={Contact}/> */}
-    </div>
-  </Router>
-,
-document.getElementById('root'));
+ReactDOM.render({App}, document.getElementById('root'));

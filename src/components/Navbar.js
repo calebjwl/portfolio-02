@@ -11,8 +11,8 @@ class Navbar extends Component {
           <Link to="/">
             <a className="navbar__link hvr-underline-from-left">Home</a>
           </Link>
-          <Link to="/work">
-            <li className="navbar__link hvr-underline-from-left">Work</li>
+          <Link to="/projects">
+            <li className="navbar__link hvr-underline-from-left">Projects</li>
           </Link>
           <Link to="/contact">
             <li className="navbar__link hvr-underline-from-left">Contact</li>
