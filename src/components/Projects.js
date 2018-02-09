@@ -16,7 +16,7 @@ class Projects extends Component {
             projectDescription={project.description}
             projectSkills={project.skills}
             projectScreenshot={project.screenshot}
-            projectLinks={project.link}
+            projectLinks={project.links}
             key={index}
             />
           )
@@ -34,13 +34,19 @@ class ProjectCard extends Component {
         <img src={require('../img/screenshots/' + this.props.projectScreenshot)} className="project-screenshot"/>
         <h1 className="project-title">{this.props.projectTitle}</h1>
         <p className="project-description">{this.props.projectDescription}</p>
-        {this.props.projectSkills.map((skill, index) => {
-          return (
-            <div className="skill-button">
-              <p>{skill}</p>
-            </div>
-          )
-        })}
+        <div className="project-skills">
+          {this.props.projectSkills.map((skill, index) => {
+            return (
+              <div className="project-skill">
+                <p>{skill}</p>
+              </div>
+            )
+          })}
+        </div>
+        <div className="project-links">
+          <a href={this.props.projectLinks.github} target="_blank" className="project-link box-shadow">View Code</a>
+          <a href={this.props.projectLinks.preview} target="_blank" className="project-link box-shadow">View Site</a>
+        </div>
       </div>
     )
   }
