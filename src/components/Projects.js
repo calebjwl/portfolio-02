@@ -3,30 +3,37 @@ import React, { Component } from 'react';
 class Projects extends Component {
   render() {
     return (
-      <div className="">
+      <div id="projects">
         <h1 className="section-title">
           <div className="block"></div>
           Projects
           <div className="block"></div>
         </h1>
-
-        <div className="projects-container">
-          {/* {this.props.projects.map((project, index) => {
-            return (
-              <div className="project-card">
-                <img src={project.screenshot} alt="" className="project-screenshot"/>
-                <h1 className="project-title">{project.title}</h1>
-                <p className="project-description">{project.description}</p>
-
-              </div>
-            )
-          })} */}
-        </div>
-        
+        {this.props.projects.map((project, index) => {
+          return (
+            <ProjectCard projectTitle={project.title}
+            projectDescription={project.description}
+            projectSkills={project.skills}
+            projectScreenshot={project.screenshot}
+            projectLinks={project.link}
+            />
+          )
+        })}
 
       </div>
     )
   }
 }
 
+class ProjectCard extends Component {
+  render() {
+    return (
+      <div className="project-card">
+        <img src={this.props.projectScreenshot} alt="" className="project-screenshot" />
+        <h1 className="project-title">{this.props.projectTitle}</h1>
+        <p className="project-description">{this.props.projectDescription}</p>
+      </div>
+    )
+  }
+}
 export default Projects;
