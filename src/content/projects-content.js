@@ -39,16 +39,16 @@ const projects = [
             preview: 'http://calebsdrumkit.surge.sh/'
         }
     },
-    {
-        title: "MyContacts",
-        description: 'MyContacts is a CRUD (Create, Read, Update, Destroy) app I built using vanilla Javascript. Users can Create new contacts, Read the contacts as displayed in their contact list, as well as Update and Destroy their created contacts. Try it yourself!',
-        skills: 'Javascript | HTML | CSS',
-        screenshot: 'my-contacts.png',
-        links: {
-            github: 'https://github.com/calebjwl/15-contact-manager',
-            preview: 'http://my-contacts.surge.sh/'
-        }
-    },
+    // {
+    //     title: "MyContacts",
+    //     description: 'MyContacts is a CRUD (Create, Read, Update, Destroy) app I built using vanilla Javascript. Users can Create new contacts, Read the contacts as displayed in their contact list, as well as Update and Destroy their created contacts. Try it yourself!',
+    //     skills: 'Javascript | HTML | CSS',
+    //     screenshot: 'my-contacts.png',
+    //     links: {
+    //         github: 'https://github.com/calebjwl/15-contact-manager',
+    //         preview: 'http://my-contacts.surge.sh/'
+    //     }
+    // },
     {
         title: "Wave Rider",
         description: 'Wave Rider Surf Blog serves as a mockup design template for a business website and blog, featuring a banner, article body section, and interactive footer. I wanted to create a simple and clean layout that had a consistent color palette, highlighting the sunset tones of the banner image.',
