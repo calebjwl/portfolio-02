@@ -34,6 +34,13 @@ class ProjectCard extends Component {
         <img src={require('../img/screenshots/' + this.props.projectScreenshot)} className="project-screenshot"/>
         <h1 className="project-title">{this.props.projectTitle}</h1>
         <p className="project-description">{this.props.projectDescription}</p>
+        {this.props.projectSkills.map((skill, index) => {
+          return (
+            <div className="skill-button">
+              <p>{skill}</p>
+            </div>
+          )
+        })}
       </div>
     )
   }
