@@ -16,6 +16,7 @@ class Projects extends Component {
             projectSkills={project.skills}
             projectScreenshot={project.screenshot}
             projectLinks={project.link}
+            key={index}
             />
           )
         })}
@@ -29,7 +30,7 @@ class ProjectCard extends Component {
   render() {
     return (
       <div className="project-card">
-        <img src={this.props.projectScreenshot} alt="" className="project-screenshot" />
+        <img src={`../img/screenshots/${this.props.projectScreenshot}`} alt="" className="project-screenshot" />
         <h1 className="project-title">{this.props.projectTitle}</h1>
         <p className="project-description">{this.props.projectDescription}</p>
       </div>

@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-
-import background from '../img/portfolio-logo.png';
 
 class Navbar extends Component {
   render() {
