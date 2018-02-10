@@ -42,7 +42,7 @@
     }
 
     &-skill {
-        border: 2px solid $c-primary;
+        border: 1.5px solid $c-yellow;
         padding: 5px 8px;
         font-size: 0.8rem;
     }
@@ -60,7 +60,7 @@
         font-size: 1rem;
 
         &:hover {
-            background: $c-primary-hover;
+            background: $c-primary-light;
         }
     }
 

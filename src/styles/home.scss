@@ -1,31 +1,32 @@
 .top-background {
     position: relative;
     width: 100%;
-    height: 760px;
-    background: url('../img/bg-bw.jpg') center;
+    height: 750px;
+    // background: url('../img/bg-bw.jpg') center;
+    background: $c-primary;
     background-size: cover;
     z-index: -9999;
-    -webkit-clip-path: polygon(0 0, 0 100%, 100% 490px, 100% 0);
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 485px, 100% 0);
 }
 
 .hero {
     font-family: 'Monaco';
     position: absolute;
-    top: 13%;
-    left: 10%;
+    top: 30%;
+    left: 11%;
 
     &-title {
         background: white;
-        color: $c-primary;
+        // color: $c-white;
         margin: 0;
         padding: 0 0.5rem;
-        font-size: 4.5rem;
+        font-size: 5rem;
     }
 
     &-subtitle {
         background: white;
         margin: 0;
         padding: 0 0.5rem;
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
