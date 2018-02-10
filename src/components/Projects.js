@@ -38,15 +38,13 @@ class ProjectCard extends Component {
           <div className="project-skills">
             {this.props.projectSkills.map((skill, index) => {
               return (
-                <div className="project-skill">
-                  <p>{skill}</p>
-                </div>
+                <p className="project-skill project-button">{skill}</p>
               )
             })}
           </div>
           <div className="project-links">
-            <a href={this.props.projectLinks.github} target="_blank" className="project-link box-shadow">View Code</a>
-            <a href={this.props.projectLinks.preview} target="_blank" className="project-link box-shadow">View Site</a>
+            <a href={this.props.projectLinks.github} target="_blank" className="project-link project-button">View Code</a>
+            <a href={this.props.projectLinks.preview} target="_blank" className="project-link project-button">View Site</a>
           </div>
         </div>
       </div>

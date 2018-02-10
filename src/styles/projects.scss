@@ -29,7 +29,7 @@
     }
 
     &-content {
-        padding: 1rem;
+        padding: 3rem;
     }
 
     &-title {
@@ -38,18 +38,34 @@
     }
 
     &-skills {
-
+        display: flex;
     }
 
     &-skill {
-
+        border: 2px solid rgb(150, 181, 141);
+        padding: 5px 8px;
+        font-size: 0.8rem;
     }
 
     &-links {
-
+        margin: 0;
     }
 
     &-link {
-        margin: 1rem;
+        text-transform: uppercase;
+        padding: 7px 10px;
+        color: white;
+        background:rgb(150, 181, 141);
+        box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+        font-size: 1rem;
+
+        &:hover {
+            background: rgb(181, 220, 171);
+        }
+    }
+
+    &-button {
+        margin: 0 1rem 1rem 0;
+        border-radius: 4px;
     }
 }
