@@ -53,7 +53,7 @@ const projects = [
         title: "Wave Rider",
         description: 'Wave Rider Surf Blog serves as a mockup design template for a business website and blog, featuring a banner, article body section, and interactive footer. I wanted to create a simple and clean layout that had a consistent color palette, highlighting the sunset tones of the banner image.',
         skills: ['HTML5', 'CSS3'],
-        screenshot: 'wave-rider.png',
+        screenshot: 'wave-rider.jpg',
         links: {
             github: 'https://github.com/calebjwl/06-surf-and-paddle',
             preview: 'http://waverider.surge.sh'
