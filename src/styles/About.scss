@@ -58,9 +58,9 @@
 }
 
 .link {
-    color: rgb(150, 181, 141); 
+    color: $c-primary   ; 
     
     &:hover {
-        color: rgb(181, 220, 171);
+        color: $c-primary   -hover;
     }
 }

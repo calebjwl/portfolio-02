@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     height: 760px;
-    background: url('../img/bg-whole.jpg') center;
+    background: url('../img/bg-bw.jpg') center;
     background-size: cover;
     z-index: -9999;
     -webkit-clip-path: polygon(0 0, 0 100%, 100% 490px, 100% 0);
@@ -16,6 +16,7 @@
 
     &-title {
         background: white;
+        color: $c-primary;
         margin: 0;
         padding: 0 0.5rem;
         font-size: 4.5rem;

@@ -10,7 +10,7 @@
     margin: 0.5rem;
     width: 2rem;
     height: 0.3rem;
-    background: rgb(150, 181, 141);
+    background: $c-primary;
 }
 
 .project {
@@ -42,7 +42,7 @@
     }
 
     &-skill {
-        border: 2px solid rgb(150, 181, 141);
+        border: 2px solid $c-primary;
         padding: 5px 8px;
         font-size: 0.8rem;
     }
@@ -55,12 +55,12 @@
         text-transform: uppercase;
         padding: 7px 10px;
         color: white;
-        background:rgb(150, 181, 141);
+        background: $c-primary;
         box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
         font-size: 1rem;
 
         &:hover {
-            background: rgb(181, 220, 171);
+            background: $c-primary-hover;
         }
     }
 

@@ -28,10 +28,14 @@ class Projects extends Component {
 }
 
 class ProjectCard extends Component {
+  componentDidMount() {
+    this.refs.screenshot.style.background = "url('img/screenshots"
+  }
   render() {
     return (
       <div className="project-card box-shadow">
-        <img src={require('../img/screenshots/' + this.props.projectScreenshot)} className="project-screenshot"/>
+        <div className="project-screenshot" ref="screenshot"></div>
+        {/* <img src={require('../img/screenshots/' + this.props.projectScreenshot)} className="project-screenshot"/> */}
         <div className="project-content">
           <h1 className="project-title">{this.props.projectTitle}</h1>
           <p className="project-description">{this.props.projectDescription}</p>

@@ -1,8 +1,9 @@
 $m-gutter: 1rem;
 
+$c-black: rgb(44, 62, 80);
 $c-white: rgb(255, 255, 255);
-$c-green: rgb(150, 181, 141);
-$c-green-hover: rgb(181, 220, 171);
+$c-primary: rgb(26, 188, 156);
+$c-primary-hover: rgb(66, 219, 189);
 
 @import 'reset.scss';
 @import 'navbar.scss';
