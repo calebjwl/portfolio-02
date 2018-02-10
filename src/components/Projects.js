@@ -30,7 +30,7 @@ class Projects extends Component {
 class ProjectCard extends Component {
   render() {
     return (
-      <div className="project-card">
+      <div className="project-card box-shadow">
         <img src={require('../img/screenshots/' + this.props.projectScreenshot)} className="project-screenshot"/>
         <h1 className="project-title">{this.props.projectTitle}</h1>
         <p className="project-description">{this.props.projectDescription}</p>
