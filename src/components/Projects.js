@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import test from '../img/screenshots/bella-divine.png';
 
 class Projects extends Component {
   render() {
@@ -29,20 +28,25 @@ class Projects extends Component {
 
 class ProjectCard extends Component {
   componentDidMount() {
-    this.refs.screenshot.style.background = "url('img/screenshots"
+    // this.refs.screenshot.style.background = "url('img/screenshots/" + this.props.projectScreenshot + "')";
+    // this.refs.screenshot.style.backgroundSize = 'cover';
+    // this.refs.screenshot.style.backgroundRepeat = 'no-repeat'
   }
+
   render() {
     return (
       <div className="project-card box-shadow">
-        <div className="project-screenshot" ref="screenshot"></div>
-        {/* <img src={require('../img/screenshots/' + this.props.projectScreenshot)} className="project-screenshot"/> */}
+        {/* <div className="project-screenshot" ref="screenshot"></div> */}
+        <div className="project-screenshot">
+          <img src={require('../img/screenshots/' + this.props.projectScreenshot)}/>
+        </div>
         <div className="project-content">
           <h1 className="project-title">{this.props.projectTitle}</h1>
           <p className="project-description">{this.props.projectDescription}</p>
           <div className="project-skills">
             {this.props.projectSkills.map((skill, index) => {
               return (
-                <p className="project-skill project-button">{skill}</p>
+                <p className="project-skill project-button" key={index}>{skill}</p>
               )
             })}
           </div>
