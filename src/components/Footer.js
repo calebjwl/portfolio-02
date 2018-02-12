@@ -4,11 +4,11 @@ class Footer extends React.Component {
     render() {
         return (
             <div className="footer">
-            <a href="#nav">
-                <div className="project-link">
-                    Back to Top
-                </div>
-            </a>
+                <a href="#nav">
+                    <div className="project-link footer-button">
+                        Back to Top
+                    </div>
+                </a>
             </div>
         )
     }

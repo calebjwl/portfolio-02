@@ -15,7 +15,7 @@
     &-circle {
         background: $c-light-black;
         color: $c-white;
-        width: 5rem;
+        width: 35%;
         padding: 2rem;
         border-radius: 50%;
 
@@ -32,5 +32,11 @@
     &-text {
         color: $c-light-black;
         font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .contact-grid__item {
+        width: calc(100% / 2 - 2rem);
     }
 }
