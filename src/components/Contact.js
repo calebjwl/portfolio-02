@@ -15,34 +15,42 @@ class Contact extends Component {
         </h1>
 
         <div className="contact-grid">
-          <div className="contact-grid__item hvr-float">
+          <a href="tel:+19378158784" className="contact-grid__item hvr-float">
             <div className="contact-circle">
               <PhoneIcon className="contact-icon"/>
             </div>
 
             <p className="contact-text">Phone</p>
-          </div>
-          <div className="contact-grid__item hvr-float">
+          </a>
+
+          <a href="mailto:caleb.gwl@gmail.com" className="contact-grid__item hvr-float">
             <div className="contact-circle">
               <EnvelopeIcon className="contact-icon"/>
             </div>
 
             <p className="contact-text">E-mail</p>
-          </div>
-          <div className="contact-grid__item hvr-float">
+          </a>
+
+          <a href="https://github.com/calebjwl" 
+          className="contact-grid__item hvr-float"
+          target="_blank">
             <div className="contact-circle">
               <GithubIcon className="contact-icon"/>
             </div>
 
             <p className="contact-text">Github</p>
-          </div>
-          <div className="contact-grid__item hvr-float">
+          </a>
+
+          <a href="https://linkedin.com/in/calebjwl" 
+          className="contact-grid__item hvr-float"
+          target="_blank">
             <div className="contact-circle">
               <LinkedinIcon className="contact-icon"/>
             </div>
 
             <p className="contact-text">LinkedIn</p>
-          </div>
+          </a>
+
         </div>
       </div>
     )
