@@ -5,9 +5,9 @@ class Projects extends Component {
     return (
       <div id="projects">
         <h1 className="section-title">
-          <div className="block"></div>
+          <span className="block"></span>
           Projects
-          <div className="block"></div>
+          <span className="block"></span>
         </h1>
         {this.props.projects.map((project, index) => {
           return (
@@ -27,9 +27,6 @@ class Projects extends Component {
 }
 
 class ProjectCard extends Component {
-  componentDidMount() {
-  }
-
   render() {
     return (
       <div className="project-card">
@@ -47,8 +44,8 @@ class ProjectCard extends Component {
             })}
           </div>
           <div className="project-links">
-            <a href={this.props.projectLinks.github} target="_blank" className="project-link project-button">View Code</a>
-            <a href={this.props.projectLinks.preview} target="_blank" className="project-link project-button">View Site</a>
+            <a href={this.props.projectLinks.github} target="_blank" className="project-link project-button hvr-float">View Code</a>
+            <a href={this.props.projectLinks.preview} target="_blank" className="project-link project-button hvr-float">View Site</a>
           </div>
         </div>
       </div>
