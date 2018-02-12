@@ -4,7 +4,7 @@ class About extends Component {
   render() {
     return (
       <div className="about-container">
-        <div className="terminal box-shadow">
+        <div className="terminal">
           <div className="terminal-header">
             <div className="header-button red"></div>
             <div className="header-button yellow"></div>

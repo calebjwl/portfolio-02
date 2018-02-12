@@ -5,7 +5,6 @@ class Navbar extends Component {
     return (
       <nav className="navbar">
         <div className="navbar-end">
-          <a href="#" className="navbar__link hvr-underline-from-left">Home</a>
           <a href="#projects" className="navbar__link hvr-underline-from-left">Projects</a>
           <a href="#contact" className="navbar__link hvr-underline-from-left">Contact</a>
         </div>

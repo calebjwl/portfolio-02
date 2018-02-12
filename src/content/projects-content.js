@@ -6,7 +6,7 @@ const projects = [
         screenshot: 'bella-divine.png',
         links: {
             github: 'https://github.com/calebjwl/',
-            preview: 'https://belladivinedress.com'
+            preview: 'http://belladivinedress.com'
         }
     },
     {

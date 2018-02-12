@@ -16,7 +16,7 @@
 
     &-window {
         width: 100%;
-        background-color:#3A3A3A;
+        background-color:rgb(58, 58, 58);
         border-radius: 0 0 4px 4px;
     }
 
@@ -58,9 +58,9 @@
 }
 
 .link {
-    color: $c-primary; 
+    color: $c-secondary; 
     
     &:hover {
-        color: $c-primary-light;
+        color: $c-secondary-light;
     }
 }

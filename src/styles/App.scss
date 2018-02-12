@@ -1,15 +1,14 @@
 $m-gutter: 1rem;
 
-$c-navy: rgb(55, 65, 64);
-$c-beige: rgb(217, 202, 158);
-$c-grey: #bdc3c7;
-$c-yellow: #f1c40f;
+$c-black: rgb(4, 2, 1);
+$c-grey: rgb(112, 113, 117);
 
-$c-black: #2c3e50;
 $c-light-black: #34495e;
 $c-white: rgb(255, 255, 255);
-$c-primary: #2980b9;
-$c-primary-light: #3498db;
+$c-primary: rgb(249, 66, 30);
+$c-primary-light: rgb(254, 96, 64);
+$c-secondary: rgb(189, 236, 239);
+$c-secondary-light: rgb(217, 248, 250);
 
 @import 'reset.scss';
 @import 'navbar.scss';
@@ -22,6 +21,7 @@ $c-primary-light: #3498db;
 .container {
   max-width: 62rem;
   margin: 0 auto;
+  padding: 2rem;
 }
 
 .App-logo {

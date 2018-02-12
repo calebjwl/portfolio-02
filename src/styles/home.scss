@@ -2,8 +2,8 @@
     position: relative;
     width: 100%;
     height: 750px;
-    // background: url('../img/bg-bw.jpg') center;
-    background: $c-primary;
+    background: url('../img/simone.jpg') center no-repeat;
+    // background: $c-primary;
     background-size: cover;
     z-index: -9999;
     -webkit-clip-path: polygon(0 0, 0 100%, 100% 485px, 100% 0);
