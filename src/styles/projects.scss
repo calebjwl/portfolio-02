@@ -85,3 +85,23 @@
         border-radius: 4px;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .project {
+        &-screenshot {
+            width: 0%;
+
+            img {
+                display: none;
+            }
+        }
+
+        &-title {
+            border-bottom: 1px solid $c-secondary-light;
+        }
+
+        &-content {
+            width: 100%;
+        }
+    }
+}
