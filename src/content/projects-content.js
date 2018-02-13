@@ -20,23 +20,13 @@ const projects = [
         }
     },
     {
-        title: "PracTip",
-        description: 'PracTip is an application I built with a partner in three weeks for our final project at the Iron Yard bootcamp. In the app, musicians can create an account, create forums and video posts, and challenge other users to complete their challenges and give feedback on posted videos. The app promotes a community of musicians helping one another get better at their instruments.',
-        skills: ['HTML5', 'CSS3', 'Sass', 'Ember.js', 'Adonis'],
-        screenshot: 'practip.png',
-        links: {
-            github: 'https://github.com/practip',
-            preview: 'http://practip.surge.sh'
-        }
-    },
-    {
         title: "JS Drum Machine",
         description: 'Use your keyboard to play my personalized drum machine, complete with 808 drum sounds and custom backing tracks! I built this without any frameworks in an effort to better solidify my vanilla Javascript fluency with Wes Bos\' Javascript 30 series.',
         skills: ['HTML5', 'CSS3', 'Sass', 'Javascript'],
         screenshot: 'drumkit.png',
         links: {
             github: 'https://github.com/calebjwl/01---JavaScript-Drum-Kit',
-            preview: 'http://calebsdrumkit.surge.sh/'
+            preview: 'https://calebsdrumkit.surge.sh/'
         }
     },
     // {
@@ -46,7 +36,7 @@ const projects = [
     //     screenshot: 'my-contacts.png',
     //     links: {
     //         github: 'https://github.com/calebjwl/15-contact-manager',
-    //         preview: 'http://my-contacts.surge.sh/'
+    //         preview: 'https://my-contacts.surge.sh/'
     //     }
     // },
     {
@@ -56,7 +46,7 @@ const projects = [
         screenshot: 'wave-rider.jpg',
         links: {
             github: 'https://github.com/calebjwl/06-surf-and-paddle',
-            preview: 'http://waverider.surge.sh'
+            preview: 'https://waverider.surge.sh'
         }
     }
 ]
