@@ -20,8 +20,18 @@ const projects = [
         }
     },
     {
+        title: "Art and Music Portfolio",
+        description: 'An custom-built archive of my artwork and music featuring a functional photo-swipe gallery. Just like this site, the content is passed in as JSON data, automatically generating styled components for efficient maintenance.',
+        skills: ['HTML5', 'CSS3', 'Sass', 'Ember.js', 'Photoshop'],
+        screenshot: 'art-and-music.png',
+        links: {
+            github: 'https://github.com/calebjwl/portfolio',
+            preview: 'https://caleb-art-and-music.surge.sh/'
+        }
+    },
+    {
         title: "JS Drum Machine",
-        description: 'Use your keyboard to play my personalized drum machine, complete with 808 drum sounds and custom backing tracks! I built this without any frameworks in an effort to better solidify my vanilla Javascript fluency with Wes Bos\' Javascript 30 series.',
+        description: 'Use your keyboard to play my personalized drum machine, complete with 808 drum sounds and custom backing tracks. I built this without any frameworks in an effort to better solidify my vanilla Javascript fluency with Wes Bos\' Javascript 30 series.',
         skills: ['HTML5', 'CSS3', 'Sass', 'Javascript'],
         screenshot: 'drumkit.png',
         links: {
@@ -29,16 +39,6 @@ const projects = [
             preview: 'https://calebsdrumkit.surge.sh/'
         }
     },
-    // {
-    //     title: "MyContacts",
-    //     description: 'MyContacts is a CRUD (Create, Read, Update, Destroy) app I built using vanilla Javascript. Users can Create new contacts, Read the contacts as displayed in their contact list, as well as Update and Destroy their created contacts. Try it yourself!',
-    //     skills: 'Javascript | HTML | CSS',
-    //     screenshot: 'my-contacts.png',
-    //     links: {
-    //         github: 'https://github.com/calebjwl/15-contact-manager',
-    //         preview: 'https://my-contacts.surge.sh/'
-    //     }
-    // },
     {
         title: "Wave Rider",
         description: 'Wave Rider Surf Blog serves as a mockup design template for a business website and blog, featuring a banner, article body section, and interactive footer. I wanted to create a simple and clean layout that had a consistent color palette, highlighting the sunset tones of the banner image.',
