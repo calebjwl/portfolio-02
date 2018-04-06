@@ -30,9 +30,9 @@ class ProjectCard extends Component {
   render() {
     return (
       <div className="project-card">
-        <div className="project-screenshot">
+        <a href={this.props.projectLinks.preview} className="project-screenshot">
           <img src={require('../img/screenshots/' + this.props.projectScreenshot)}/>
-        </div>
+        </a>
         <div className="project-content">
           <h1 className="project-title">{this.props.projectTitle}</h1>
           <p className="project-description">{this.props.projectDescription}</p>
