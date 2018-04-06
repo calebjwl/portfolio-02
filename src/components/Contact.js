@@ -33,7 +33,7 @@ class Contact extends Component {
 
           <a href="https://github.com/calebjwl" 
           className="contact-grid__item hvr-float"
-          target="_blank">
+          target="_blank" rel="noopener noreferrer">
             <div className="contact-circle">
               <GithubIcon className="contact-icon"/>
             </div>
@@ -43,7 +43,7 @@ class Contact extends Component {
 
           <a href="https://linkedin.com/in/calebjwl" 
           className="contact-grid__item hvr-float"
-          target="_blank">
+          target="_blank" rel="noopener noreferrer">
             <div className="contact-circle">
               <LinkedinIcon className="contact-icon"/>
             </div>

@@ -12,6 +12,7 @@ class Projects extends Component {
         {this.props.projects.map((project, index) => {
           return (
             <ProjectCard projectTitle={project.title}
+            // inProgress={project.inProgress}
             projectDescription={project.description}
             projectSkills={project.skills}
             projectScreenshot={project.screenshot}
@@ -31,7 +32,7 @@ class ProjectCard extends Component {
     return (
       <div className="project-card">
         <a href={this.props.projectLinks.preview} className="project-screenshot">
-          <img src={require('../img/screenshots/' + this.props.projectScreenshot)}/>
+          <img src={require('../img/screenshots/' + this.props.projectScreenshot)} alt="this.props.projecTitle"/>
         </a>
         <div className="project-content">
           <h1 className="project-title">{this.props.projectTitle}</h1>

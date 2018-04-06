@@ -1,6 +1,7 @@
 const projects = [
     {
         title: "MyRecipes",
+        inProgress: true,
         description: "A rough demo of my current side project, still in the beginning stages of development. I am working on adding an edit recipe feature, as well as a filter feature on the home page where users can sort recipes by breakfast, lunch, dinner, and more. ",
         skills: ['React', 'Redux', 'HTML5', 'CSS3', 'Sass'],
         screenshot: 'my-recipes.png',

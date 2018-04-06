@@ -32,8 +32,8 @@ class About extends Component {
                 <p className="terminal-title">/* Contact */</p>
                 <p>
                   ["<a href="mailto:caleb.gwl@gmail.com" className="link">caleb.gwl@gmail.com</a>", 
-                  "<a href="https://github.com/calebjwl" target="_blank" className="link">GitHub</a>",
-                  "<a href="https://www.linkedin.com/in/calebjwl/" target="_blank" className="link">LinkedIn</a>"] 
+                  "<a href="https://github.com/calebjwl" target="_blank" rel="noopener noreferrer" className="link">GitHub</a>",
+                  "<a href="https://www.linkedin.com/in/calebjwl/" target="_blank" rel="noopener noreferrer" className="link">LinkedIn</a>"] 
                 </p>
               </div>
             </div>
