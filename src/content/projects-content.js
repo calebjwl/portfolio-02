@@ -1,5 +1,26 @@
 const projects = [
     {
+        title: "Loom Decor",
+        inProgress: true,
+        description: "Loom Decor is a custom home-furnishings retailer based on an feature-heavy eCommerce platform. During my time as front end developer at Loom, I contributed to several major projects through code and CMS templating systems. In my first month I developed the frontend for the site's quoting tool, a feature that allowed interior designers and stylists to instantly calculate quotes for clients according to dynamic pricing rules. I also participated in the Entrepreneurial Operating System and grew skills in project and sprint planning using JIRA Project Tracking Software.",
+        skills: [
+            'Magento 2 Enterprise',
+            'HTML/PHTML',
+            'CSS',
+            'LESS',
+            'Javascript',
+            'jQuery',
+            'RequireJS',
+            'AJAX',
+            'PHP',
+            'XML'
+        ],
+        screenshot: 'loom-home.png',
+        links: {
+            preview: 'https://www.loomdecor.com'
+        }
+    },
+    {
         title: "MyRecipes",
         inProgress: true,
         description: "A rough demo of my current side project, still in the beginning stages of development. I am working on adding an edit recipe feature, as well as a filter feature on the home page where users can sort recipes by breakfast, lunch, dinner, and more. ",

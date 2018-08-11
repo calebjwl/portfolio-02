@@ -45,7 +45,9 @@ class ProjectCard extends Component {
             })}
           </div>
           <div className="project-links">
-            <a href={this.props.projectLinks.github} target="_blank" className="project-link project-button hvr-float">View Code</a>
+            {this.props.projectLinks.github &&
+              <a href={this.props.projectLinks.github} target="_blank" className="project-link project-button hvr-float">View Code</a>
+            }
             <a href={this.props.projectLinks.preview} target="_blank" className="project-link project-button hvr-float">View Site</a>
           </div>
         </div>
