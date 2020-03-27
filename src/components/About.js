@@ -18,11 +18,11 @@ class About extends Component {
               </div>
               <div className="terminal-group">
                 <p className="terminal-title">/* Bio */</p>
-                <p>I am a junior web developer specializing in front-end engineering. I aim to create seamless user experiences in practical, optimized web apps.</p>
+                <p>Front-end web developer with 3 years of experience. Skilled in building responsive and clean user interfaces using HTML/CSS/JS, and CMS platforms. </p>
               </div>
               <div className="terminal-group">
                 <p className="terminal-title">/* Skills */</p>
-                <p>["HTML5", "CSS3", "Sass", "Javascript", "React/Ember/Vue", "Sketch", "Photoshop"]</p>
+                <p>["HTML", "CSS", "Sass", "Javascript", "React", "ASP.NET MVC", "C#"]</p>
               </div>
               <div className="terminal-group">
                 <p className="terminal-title">/* Hobbies */</p>

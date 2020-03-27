@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import './styles/App.css';
+import './styles/App.scss';
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
-import Projects from './components/Projects';
+// import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-import projects from './content/projects-content';
+// import projects from './content/projects-content';
 
 class App extends Component {
   render() {
@@ -20,7 +20,7 @@ class App extends Component {
         <div className="container">
           <Home/>
           <About/>
-          <Projects projects={projects}/>
+          {/* <Projects projects={projects}/> */}
           <Contact/>
         </div>
         <Footer/>
