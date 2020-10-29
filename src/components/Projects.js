@@ -32,7 +32,7 @@ class ProjectCard extends Component {
     return (
       <div className="project-card">
         <a href={this.props.projectLinks.preview} className="project-screenshot">
-          <img src={require('../img/screenshots/' + this.props.projectScreenshot)} alt="this.props.projecTitle"/>
+          <img src={require('../img/screenshots/' + this.props.projectScreenshot)} alt="this.props.projectTitle"/>
         </a>
         <div className="project-content">
           <h1 className="project-title">{this.props.projectTitle}</h1>

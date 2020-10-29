@@ -1,0 +1,9 @@
+.resume {
+    
+    & img {
+        border-radius: 9px;
+        box-shadow: $box-shadow;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
