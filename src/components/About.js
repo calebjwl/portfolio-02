@@ -22,16 +22,16 @@ class About extends Component {
               </div>
               <div className="terminal-group">
                 <p className="terminal-title">/* Skills */</p>
-                <p>["HTML", "CSS", "Sass", "Javascript", "React", "ASP.NET MVC", "C#"]</p>
+                <p>["HTML", "CSS", "SASS/LESS", "Javascript", "React", "ASP.NET MVC", "C#"]</p>
               </div>
               <div className="terminal-group">
                 <p className="terminal-title">/* Hobbies */</p>
-                <p>["drums", "audio engineering & mixing", "drawing", "cooking"]</p>
+                <p>["drums", "music production", "audio engineering", "cooking"]</p>
               </div>
               <div className="terminal-group">
                 <p className="terminal-title">/* Contact */</p>
                 <p>
-                  ["<a href="mailto:caleb.gwl@gmail.com" className="link">caleb.gwl@gmail.com</a>", 
+                  ["<a href="mailto:caleb.gwl@gmail.com" className="link">Email</a>", 
                   "<a href="https://github.com/calebjwl" target="_blank" rel="noopener noreferrer" className="link">GitHub</a>",
                   "<a href="https://www.linkedin.com/in/calebjwl/" target="_blank" rel="noopener noreferrer" className="link">LinkedIn</a>"] 
                 </p>
@@ -39,7 +39,6 @@ class About extends Component {
             </div>
           </div>
         </div>
-
       </div>
     )
   }

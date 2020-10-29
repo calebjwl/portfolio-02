@@ -2,6 +2,7 @@ $m-gutter: 1rem;
 
 $c-black: rgb(4, 2, 1);
 $c-grey: rgb(112, 113, 117);
+$c-shadow: rgba(0, 0, 0, 0.3);
 
 $c-light-black: rgb(58, 58, 58);
 $c-white: rgb(255, 255, 255);
@@ -10,12 +11,15 @@ $c-primary-light: rgb(249, 88, 55);
 $c-secondary: rgb(189, 236, 239);
 $c-secondary-light: rgb(217, 248, 250);
 
+$box-shadow: 0px 10px 25px $c-shadow;
+
 @import 'reset.scss';
 @import 'hover.scss';
 @import 'navbar.scss';
 @import 'home.scss';
 @import 'about.scss';
 @import 'projects.scss';
+@import 'experience.scss';
 @import 'contact.scss';
 
 @import url('https://fonts.googleapis.com/css?family=Hind');
