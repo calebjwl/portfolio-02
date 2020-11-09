@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import resume from '../img/resume-screenshot-lg.png';
 
-const resumeLink = "https://drive.google.com/file/d/1FoBrIbhzvl9DirfChflB9MTVmzsuhvri/view?usp=sharing";
+const resumeLink = "https://drive.google.com/file/d/1FoBrIbhzvl9DirfChflB9MTVmzsuhvri/view?usp=sharinghttps://drive.google.com/file/d/1d4eXM64gdIv-j0VcFCjGJfXEtzvRRI9k/view?usp=sharing";
 
 class Experience extends Component {
   render() {
